@@ -1,0 +1,275 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+  }
+  
+  @font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+  }
+  
+  @font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+  }
+  
+  @font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+  }
+  body {
+	color: #212121;
+	font-family: 'Open Sans', sans-serif;
+	min-width: 850px;
+}
+
+a {
+	text-decoration: none;
+	color: #212121;
+}
+
+li {
+	list-style-type: none;
+}
+header {
+  background: #fff;
+}
+.logo{
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.Logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height:120px;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.menubar {
+	display: flex;	
+}
+
+.menubar_item {
+	margin-left: 20px;
+	font-weight: 600;
+	font-size: 20px;
+	
+	
+}
+.button {
+	display: block;
+	text-transform: uppercase;
+	font-family:'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding: 17px 0;
+	color: #fff;
+}
+.title{
+	max-width: 625px;
+}
+
+.title h3{
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+.title p {
+	font-size: 15px;
+	font-weight: 400;
+}
+.contain-project {
+	background: url('../art/Photo.png') no-repeat center top / cover;
+	min-height: 660px;
+}
+
+.contain-project_body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	max-width: 1170px;
+	margin: 0 auto;
+  height:47.142vw;
+	align-items: center;
+	min-height: 660px;
+	padding: 0 30px;
+}
+
+.contain-project_title {
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.contain-project_title h1 {
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+.contain-project_title span {
+	font-size: 22px;
+}
+
+.contain-project_row{
+	align-self: stretch;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.contain-project_row a:hover {
+	background: #fff;
+	color: #000;
+	border: 1px solid #fff;
+}
+
+.contain-project_button1 {
+	border: 1px solid #fff;
+	min-width: 220px;
+	transition: 0.5s ease;
+}
+
+.contain-project_button2 {
+	border: 1px solid #00897b;
+	background: #00897b;
+	min-width: 220px;
+	transition: 0.5s ease;
+}
+.about{
+	min-height: 660px;
+}
+
+.about-us_body {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;	
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 50vw;
+	text-align: center;
+	min-height: 660px;
+	padding: 0 30px;
+}
+
+.about-us_info {
+	align-self: stretch;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.about-us_item {
+	max-width: 200px;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.about-us_item img {
+	align-self: center;
+}
+.description{
+	max-width: 625px;
+}
+
+.description-title{
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+.description-subtitle{
+	font-size: 15px;
+	font-weight: 400;
+}
+.our-services {
+	min-width: 850px;
+	background: #e4fdf9;
+}
+.our-services_body {
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;	
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 50vw;
+	text-align: center;
+	min-height: 1410px;
+	padding: 0 30px;
+}
+.our-services-bar {
+	align-self: stretch;
+	align-content: space-between;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	min-height: 910px;
+}
+
+.our-services-menu {
+	background: #fff;
+	width: 290px;
+	min-height: 440px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex: 0 1 32%;
+	transition: 0.5s ease;
+}
+
+.our-services-menu img {
+	filter: invert();
+	align-self: center;
+}
+
+.our-services_button {
+	align-self: center;
+	width: 150px;
+	border: 5px solid #000;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.our-services-menu:hover {
+	background: #00897b;
+	color: #fff;
+}
+
+.our-services-menu:hover img{
+	filter: none;
+}
+
+.our-services-menu:hover a{
+	background: #00897b;
+	border: 5px solid #fff;
+	color: #fff;
+}
+.our-services{
+	background-color:#e4fdf9 ;
+}
+
