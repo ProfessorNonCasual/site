@@ -451,8 +451,58 @@ text-align: center;
 	margin-top: 60px;
 	transition: 0.3s ease;
 }
+
 .pricing-plan-plan-text li{
 	border-bottom: 2px solid #bfbfbf;
 	line-height: 60px;
 	text-align: center;
+}
+
+.team-member-body {
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.team-member-body > * {
+	padding-bottom: 100px;
+}
+
+.team-member-panels {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.team-member-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px;
+	max-width: 360px;
+}
+
+.team-member-panel > * {
+	margin-bottom: 15px;
+}
+
+.team-member-photo {
+	width: 100%;
+}
+
+.team-member-name {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.team-member-post {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.team-member-link-row {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
 }
